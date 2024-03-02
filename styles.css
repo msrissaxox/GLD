@@ -1,0 +1,26 @@
+/* Welcome Screen Styling*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
+}
+#welcomeScreen {
+   background-image: url("./Assets/welcome.webp");
+   background-size: cover;
+   background-position: center;
+   height: 100vh; 
+   background-attachment: fixed;
+   font-family: "Playfair Display", serif;
+}
+h1 {
+    font-size: 60px;
+}
+#title {
+    color: #FFFFFFEF;
+    font-size: 90px;
+}
