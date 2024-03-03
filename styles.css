@@ -52,7 +52,7 @@ h1 {
     font-size: 12px;
 }
 
-/*Section 2 Styling*/
+/*Section 2-4 Styling*/
 
 .section-2, .section-3, .section-4 {
     height: 100vh;
@@ -68,4 +68,5 @@ h1 {
 
 .headers {
     color: var(--main-tan);
+    font-family: "Cormorant", serif;
 }
