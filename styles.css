@@ -1,7 +1,7 @@
 /*Root colors for project*/
 :root {
     --main-black: #100402;
-
+    --main-tan: #E3D9CF;
 }
 
 /* Welcome Screen Styling*/
@@ -57,4 +57,10 @@ h1 {
 .section-2 {
     height: 100vh;
     background-color: var(--main-black);
+}
+
+.paragraph-section2 {
+    color: var(--main-tan);
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
 }
