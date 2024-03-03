@@ -1,3 +1,9 @@
+/*Root colors for project*/
+:root {
+    --main-black: #100402;
+
+}
+
 /* Welcome Screen Styling*/
 * {
     box-sizing: border-box;
@@ -26,4 +32,29 @@ h1 {
 }
 .cover-font {
     color: #FFFFFF;
+}
+.nav-bar .list {
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+}
+
+
+.list {
+    list-style: none;
+}
+
+#shop-button button {
+    background-color: transparent;
+    padding: 3px 15px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+}
+
+/*Section 2 Styling*/
+
+.section-2 {
+    height: 100vh;
+    background-color: var(--main-black);
 }
