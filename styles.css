@@ -54,17 +54,18 @@ h1 {
 
 /*Section 2 Styling*/
 
-.section-2 {
+.section-2, .section-3, .section-4 {
     height: 100vh;
     background-color: var(--main-black);
+    color: var(--main-tan);
 }
 
-.paragraph-section2 {
+.paragraph-section {
     color: var(--main-tan);
     font-family: "Raleway", sans-serif;
     font-size: 15px;
 }
+
 .headers {
     color: var(--main-tan);
-
 }
