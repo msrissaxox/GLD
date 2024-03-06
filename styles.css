@@ -13,8 +13,13 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-
 }
+#welcomeScreen a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
 #welcomeScreen {
    background-image: url("./Assets/welcome.webp");
    background-size: cover;
