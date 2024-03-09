@@ -27,7 +27,9 @@ body {
    height: 100vh; 
    background-attachment: fixed;
    font-family: "Cormorant", serif;
+   border: solid orange;
 }
+
 h1 {
     font-size: 60px;
 }
@@ -86,9 +88,14 @@ h1 {
     grid-row: 1;
 }
 
-#shop-button {
-grid-column: 3;
-grid-row: 2;
+.grid-aboutme {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.aboutme, .paragraph-section-2 {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 #shop-button button {
@@ -100,6 +107,21 @@ grid-row: 2;
 }
 
 /*Section 2-4 Styling*/
+.section-2 {
+    border: solid green;
+}
+
+.section-3 {
+    border: solid yellow;
+    padding-top: 100px;
+}
+.paragraph-section-2 {
+    padding-top: 100px;
+}
+
+.section-4 {
+    border: solid hotpink;
+}
 
 .section-2, .section-3, .section-4 {
     height: 100vh;
