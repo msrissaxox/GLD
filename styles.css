@@ -90,25 +90,33 @@ h1 {
     background-color: transparent;
     padding: 5px 28px;
     border: solid #6E381F;
+    color: white;
+    font-size: 18px;
 }
-X
+
 
 /*Section 2-4 Styling*/
 
 
-.section-2 {   
+.section-2-1 {   
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 20% 1fr 1em;  
-   border: solid green;
-   height: 100vh; 
-   
+    grid-template-columns: 50% 50%;
+    border: solid green;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 140px;
 }
- 
-.section-2-1 {
-    padding-top: 160px;
-   
+
+
+.header-1 {
+    font-size: 50px;
+
 }
+
+
+
+
+
 
 .section-4 {
     border: solid hotpink;
