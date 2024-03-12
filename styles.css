@@ -91,78 +91,23 @@ h1 {
     padding: 5px 28px;
     border: solid #6E381F;
 }
-
-.section-2 {
-    height: 100vh;
-
-}
-.goldandwhite {
-    display: flex;
-    height: 50vh;
-
-    justify-content: center;
-}
-    /* Align items at the bottom and justify content across cells */
-/* 
-.grid-aboutme {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-}
-
-.aboutme {
-    grid-column: 1;
-    grid-row: 1;
-}
-.paragraph-section-3 {
-    grid-column: 1;
-    grid-row: 2;
-
-}
-
-.aboutmepic {
-    grid-column: 2;
-    grid-row: 1 / 2;
-    border: solid red;
-}
-
-.headers {
-    font-size: 55px;
-}
-
-/* #shop-button button {
-    background-color: transparent;
-    padding: 3px;
-    color: white;
-    font-family: "Raleway", sans-serif;
-    font-size: 12px;
-} */
+X
 
 /*Section 2-4 Styling*/
 
-.section-2 {
-    border: solid green;
-}
-
-.section-3 {
-    border: solid yellow; 
-}
 
 .section-2 {   
    display: grid;
    grid-template-columns: 1fr 1fr;
-   grid-template-rows: 25% 1fr 1em;  
+   grid-template-rows: 20% 1fr 1em;  
+   border: solid green;
+   height: 100vh; 
+   
 }
-
-.header-1 {
-    grid-row: 1;
-    grid-column: 1;
-    font-size: 55px;
-}
-
-.gld-paragraph-1 { 
-    grid-column: 1;
-    grid-row: 2;
+ 
+.section-2-1 {
+    padding-top: 160px;
+   
 }
 
 .section-4 {
@@ -184,4 +129,8 @@ h1 {
 .headers {
     color: var(--main-tan);
     font-family: "Cormorant", serif;
+}
+
+.section-3 {
+    border: solid yellow; 
 }
