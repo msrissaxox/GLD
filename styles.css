@@ -26,10 +26,9 @@ body {
    background-image: url("./Assets/welcome.webp");
    background-size: cover;
    background-position: center;
-   height: 100vh; 
+   height: 100vh;
    background-attachment: fixed;
    font-family: "Cormorant", serif;
-   border: solid orange;
 }
 
 h1 {
@@ -37,33 +36,21 @@ h1 {
 }
 
 #title {
-    color: #FFFFFFEF;
-    font-size: 130px;
+    color: #ffffff95;
+    font-size: 100px;
+    text-transform: uppercase;
 }
 
 .cover-font {
     color: #FFFFFF;
+    position: relative;
 }
 
 .nav-bar {
    position: fixed;
    top: 0;
    width: 95vw;
-}
-
-.title1 {
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.GLD-Header-Logo {
-    width: 250px;
-}
-
-/*Why is this not giving me the space I need on the bottom?*/
-
-.nav-bar {
-    border: solid blue;
+   z-index: 2;
 }
 
 .nav-bar .list {
@@ -75,25 +62,48 @@ h1 {
     font-weight: lighter;
 }
 
-
 .list {
     list-style: none;
 }
 
+.title1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.GLD-Header-Logo {
+    width: 250px;
+}
+
 .grids-main {
-    border: solid red;
-   padding-top: 100px;
-   height: 100vh;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-rows: 1fr 1fr;
+    padding-top: 480px;
+    display: grid;
 }
 
-.grids-main .cover-font #title {
-    grid-column: 1 / 3;
-    grid-row: 1;
+#shop-button-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
+#shop-button-1 > button {
+    background-color: transparent;
+    padding: 5px 28px;
+    border: solid #6E381F;
+}
+
+.section-2 {
+    height: 100vh;
+
+}
+.goldandwhite {
+    display: flex;
+    height: 50vh;
+
+    justify-content: center;
+}
+    /* Align items at the bottom and justify content across cells */
+/* 
 .grid-aboutme {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -120,25 +130,39 @@ h1 {
     font-size: 55px;
 }
 
-#shop-button button {
+/* #shop-button button {
     background-color: transparent;
-    padding: 3px 15px;
+    padding: 3px;
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
-}
+} */
 
 /*Section 2-4 Styling*/
+
 .section-2 {
     border: solid green;
 }
 
 .section-3 {
-    border: solid yellow;
-   
+    border: solid yellow; 
 }
 
-.paragraph-section-2 {    
+.section-2 {   
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 25% 1fr 1em;  
+}
+
+.header-1 {
+    grid-row: 1;
+    grid-column: 1;
+    font-size: 55px;
+}
+
+.gld-paragraph-1 { 
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .section-4 {
