@@ -119,7 +119,7 @@ max-width: 75%;
 }
 
 .header-1 {
-    font-size: 35px; 
+    font-size: 40px; 
     padding-bottom: 30px;
     font-family: "Cormorant", serif;
     text-transform: uppercase;
@@ -154,6 +154,11 @@ max-width: 75%;
 
 .section-4 {
     border: solid hotpink;
+    padding: 120px 50px 90px;
+    display: grid;
+    grid-template-columns: 1fr 25% 25%;
+    grid-template-rows: 1fr auto;
+    column-gap: 30px;
 }
 
 .section-2, .section-3, .section-4 {
@@ -176,5 +181,9 @@ p {
 .about-me {
     color: var(--main-tan);
     font-family: "Cormorant", serif;
-    min-width: 8    x5%;
+  
+}
+
+.img-border-radius {
+    border-radius: 50%;
 }
