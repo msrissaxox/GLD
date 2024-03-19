@@ -2,6 +2,7 @@
 :root {
     --main-black: #100402;
     --main-tan: #E3D9CF;
+    --off-black: #262424;
 }
 
 /* Welcome Screen Styling*/
@@ -272,6 +273,8 @@ form {
   input, textarea {
     width: 100%;
     margin: 10px 0 0 0;
+    background-color: var(--off-black);
+    border: var(--off-black) solid 1px;
   }
 
   
