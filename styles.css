@@ -259,3 +259,19 @@ p {
 form > fieldset > label {
     display: block;
 }
+
+/* Gives the form a max-width and min-width, 
+setting it to 60vw betwween those widths. */
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+  }
+
+  input, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }
+
+  
