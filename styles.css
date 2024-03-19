@@ -255,3 +255,7 @@ p {
 .bracelet-para {
     text-align: center;
 }
+
+form > fieldset > label {
+    display: block;
+}
