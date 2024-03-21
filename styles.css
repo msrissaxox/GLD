@@ -2,7 +2,7 @@
 :root {
     --main-black: #100402;
     --main-tan: #E3D9CF;
-    --off-black: #262424;
+    --off-black: #363333;
 }
 
 /* Welcome Screen Styling*/
@@ -38,6 +38,57 @@ body {
 h1 {
     font-size: 60px;
 }
+ /*Added animation to the heading on main section */
+ .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
+	        animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation tracking-in-expand
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
 
 #title {
     color: #ffffff95;
@@ -50,7 +101,7 @@ h1 {
    
 }
 
-.nav-bar {
+.nav-bar{
    position: fixed;
    top: 0;
    width: 95vw;
@@ -65,6 +116,7 @@ h1 {
     font-size: 20px;
     font-weight: lighter;
 }
+
 
 .list {
     list-style: none;
@@ -170,6 +222,7 @@ max-width: 75%;
     height: 100vh;
     display: flex;
     align-items: center; 
+    border: solid red 5px;
 }
 .section-2-1 {
     padding: 120px 50px 90px;
@@ -178,18 +231,29 @@ max-width: 75%;
     grid-template-rows: 1fr auto;
     row-gap: 20px;
 }
+/*Carousel*/
 
 .goldandwhite {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.goldandwhiteimage {
-    object-fit: contain;
+.carousel-pic {
+    height: 500px;
+    object-fit: scale-down;
+    width: 100%;
+}
+
+
+
+.section-3 {
+    border: solid blue 5px;
+    padding: 120px 50px 90px;
 }
 
 .section-3-1 {   
-    padding: 120px 50px 90px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -201,9 +265,11 @@ max-width: 75%;
     height: 100vh;
     display: flex;
    align-items: center;
+   border: solid red 5px;
+   padding: 120px 50px 90px;
 }
 .section-4-1 {
-    padding: 120px 50px 90px;
+    
     display: grid;
     grid-template-columns: 1fr 25% 25%;
     grid-template-rows: 1fr auto;
@@ -257,6 +323,10 @@ p {
     text-align: center;
 }
 
+.section-5 {
+    padding: 120px 50px 0px;
+}
+
 form > fieldset > label {
     display: block;
 }
@@ -275,6 +345,8 @@ form {
     margin: 10px 0 0 0;
     background-color: var(--off-black);
     border: var(--off-black) solid 1px;
+    color: var(--main-tan);
+    min-height: 2em;
   }
 
   
