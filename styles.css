@@ -222,7 +222,6 @@ max-width: 75%;
     height: 100vh;
     display: flex;
     align-items: center; 
-    border: solid red 5px;
 }
 .section-2-1 {
     padding: 120px 50px 90px;
@@ -235,12 +234,14 @@ max-width: 75%;
 
 .goldandwhite {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-end;
+
+    width: 100%;
 }
 
 .carousel-pic {
-    height: 500px;
+
     object-fit: scale-down;
     width: 100%;
 }
