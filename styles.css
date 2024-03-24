@@ -98,7 +98,6 @@ h1 {
 
 .cover-font {
     color: #FFFFFF;
-   
 }
 
 .nav-bar{
@@ -129,13 +128,13 @@ h1 {
 }
 .flex-1-1 {
     display: flex;
-    height: 100vh;
-    align-items:flex-end;
+    height: 70vh;
+    align-items: flex-end;
 }
 
 .flex-1 {
     height: 50vh;
-    width: 95vw;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,17 +143,17 @@ h1 {
 #shop-button-1 {
     align-self: flex-end;
     padding-bottom: 75px;
-
 }
 
 #shop-button-1 > button {
     background-color: transparent;
-    padding: 5px 28px;
+    padding: 5px 30px;
     border: solid #6E381F 1px;
     color: white;
     font-size: 20px;
     font-weight: lighter;
 }
+
 
 
 
@@ -318,18 +317,29 @@ p {
 .section-5 {
     padding: 120px 50px 0px;
 }
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 form > fieldset > label {
     display: block;
 }
 
+.form1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 /* Gives the form a max-width and min-width, 
 setting it to 60vw betwween those widths. */
 form {
     margin: 0 auto;
-    max-width: 500px;
-    min-width: 300px;
-    width: 60vw;
+    max-width: 600px;
+    min-width: 400px;
+    width: 70vw;
   }
 
   input, textarea {
