@@ -205,6 +205,7 @@ justify-content: center;
 .aboutmepic {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 20px;
 }
 
 .pic {
@@ -213,7 +214,7 @@ justify-content: center;
     
 }
 
-#shop-button-2 {
+#shop-button-2, #shop-button-3 {
     grid-column: 2;
     grid-row: 2;
     display: flex;
@@ -259,6 +260,7 @@ justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
     row-gap: 20px;
+    
 }
 
 .section-4 {
@@ -305,7 +307,17 @@ p {
     font-size: 20px;
     font-weight: lighter;
     font-family: "Cormorant", serif;
-    margin-right: 25px;
+    margin-right: 20px;
+}
+#shop-button-3 > button {
+    background-color: transparent;
+    padding: 5px 28px;
+    border: solid white 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Cormorant", serif;
+    margin-right: 10px;
 }
 
 .img-border-radius {
