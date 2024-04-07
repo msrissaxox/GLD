@@ -102,14 +102,17 @@ h1 {
 
 .nav-bar{
     top: 0;
-    width: 95vw;
+    width: 100vw;
     z-index: 2;
+    background-color: #ffffff80;
+    position: fixed;
 }
 
 .nav-bar .list {
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     font-size: 20px;    
 }
@@ -128,7 +131,7 @@ h1 {
 }
 .flex-1-1 {
     display: flex;
-    height: 70vh;
+    height: 95vh;
     align-items: flex-end;
 }
 
@@ -220,7 +223,7 @@ max-width: 75%;
     align-items: center; 
 }
 .section-2-1 {
-    padding: 120px 50px 90px;
+    padding: 70px 50px 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -241,8 +244,7 @@ max-width: 75%;
 }
 
 .section-3 {
-    border: solid blue 5px;
-    padding: 120px 50px 90px;
+    padding: 70px 50px 90px;
 }
 
 .section-3-1 {   
@@ -256,8 +258,7 @@ max-width: 75%;
     height: 100vh;
     display: flex;
     align-items: center;
-    border: solid red 5px;
-    padding: 120px 50px 90px;
+    padding: 70px 50px 90px;
 }
 
 .section-4-1 {    
@@ -315,15 +316,13 @@ p {
 }
 
 .section-5 {
-    padding: 120px 50px 0px;
+    padding: 70px 50px 0px;
 }
 .forms {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-
 
 form > fieldset > label {
     display: block;
