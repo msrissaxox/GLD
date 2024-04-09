@@ -100,25 +100,22 @@ h1 {
     color: #FFFFFF;
 }
 
-/* .nav-bar{
+.nav-bar{
     top: 0;
-    width: 100vw;
-    height: 200px;
+    width: 100%;
+    height: 135px;
     z-index: 2;
     background-color: #ffffff80;
     position: fixed;
-}
-
-.nav-bar {
-
-   
     font-size: 20px;
-    border: solid red;    
+    border: solid red;   
 }
 
 .list {
     list-style: none;
-} */
+    display: flex;
+    justify-content: space-around;
+}
 
 .title1 {
     font-weight: bold;
@@ -126,7 +123,7 @@ h1 {
 }
 
 .GLD-Header-Logo {
-    width: 250px;
+    width: 200px;
 }
 .flex-1-1 {
     display: flex;
