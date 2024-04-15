@@ -27,7 +27,7 @@ body {
 }
 
 #welcomeScreen {
-   background-image: url("./Assets/welcome.webp");
+   background-image: url("./Assets/images/welcome.webp");
    background-size: cover;
    background-position: center;
    height: 100vh;
@@ -108,13 +108,14 @@ h1 {
     background-color: #ffffff80;
     position: fixed;
     font-size: 20px;
-    border: solid red;   
+    margin:0;
 }
 
 .list {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .title1 {
@@ -127,7 +128,7 @@ h1 {
 }
 .flex-1-1 {
     display: flex;
-    height: 75vh;
+    height: 95vh;
     align-items: flex-end;
 }
 
@@ -224,7 +225,7 @@ justify-content: center;
     align-items: center; 
 }
 .section-2-1 {
-    padding: 70px 50px 90px;
+    padding: 200px 50px 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -252,7 +253,7 @@ justify-content: center;
 }
 
 .section-3-1 {   
-    padding: 70px 50px 90px;
+    padding: 200px 50px 90px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
@@ -261,19 +262,23 @@ justify-content: center;
 }
 
 .section-4 {
-    height: 75vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     padding: 70px 50px 90px;
 }
 
 .section-4-1 {    
-    padding: 70px 50px 90px;
+    padding: 150px 50px 90px;
     display: grid;
     grid-template-columns: 1fr 25% 25%;
     grid-template-rows: 1fr auto;
     row-gap: 20px;
     column-gap: 100px;
+}
+
+.section-5-1 {
+    padding: 100px 50px 10px;
 }
 
 .section-2, .section-3, .section-4, .section-5, .section-5-1 {
