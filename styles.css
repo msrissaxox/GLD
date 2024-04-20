@@ -101,8 +101,8 @@ h1 {
 }
 
 .nav-bar{
-    top: 0;
     width: 100%;
+    top: 0;
     height: 135px;
     z-index: 2;
     background-color: #ffffff80;
@@ -130,6 +130,7 @@ h1 {
     display: flex;
     height: 95vh;
     align-items: flex-end;
+
 }
 
 .flex-1 {
@@ -371,4 +372,64 @@ form {
     border: var(--off-black) solid 1px;
     color: var(--main-tan);
     min-height: 2em;
+  }
+
+  @media (min-width: 481px) and (max-width: 900px){
+  
+    #welcomeScreen {
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+    .nav-bar {
+        display: none;
+    }
+    #title {
+        font-size: 70px;
+    }
+    /* #shop-button-1 {
+        align-self: flex-end;
+    } */
+    
+    /* #shop-button-1 > button{
+        background-color: transparent;
+        border: solid #6E381F 1px;
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+        display: flex;
+    } */
+    #welcomeScreen{
+        border: solid 10px red;
+        margin: 0;
+        padding: 0;
+    }
+.section-2-1, .section-3-1 {
+    border: solid 10px green;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 1rem;
+}
+
+.header-1 {
+    text-align: center;
+}
+#disappear {
+    display: none;
+}
+.pic {
+    width: 400px;
+    height: 450px;
+}
+ .section-4 {
+    display: none;
+}
+   
   }
