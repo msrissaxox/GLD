@@ -338,12 +338,15 @@ p {
     -webkit-transition: all .8s ease;
     -moz-transition: all .8s ease;
     -o-transition: all .8s ease;
+    transition: scale .8 ease;
 }
 
 .img-border-radius:hover {
     background: #ffffff !important;
     opacity: 0.5;
     z-index: 0;
+    scale: 1.05;
+
 }
 
 .bracelet-para {
@@ -445,8 +448,7 @@ p {
     font-size: 1rem;
 }
 .section-5-1 {
-    padding-top: 50px;
-    margin-top: 500px;
+
     height: 100%;
 }
 .header-1 {
@@ -461,6 +463,16 @@ p {
 }
  .section-4 {
     display: none;
+}
+
+.section-4-1 {
+    border: solid 10px green;
+    margin: 50px 0;
+     padding: 50px 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
 }
 
   }
