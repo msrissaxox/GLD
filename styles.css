@@ -386,7 +386,7 @@ form {
     min-height: 2em;
   }
 
-  @media (min-width: 481px) and (max-width: 900px){
+  @media (min-width: 600px) and (max-width: 900px){
   
     #welcomeScreen {
         background-size: cover;
@@ -420,7 +420,7 @@ form {
 .section-2-1, .section-3-1 {
     border: solid 10px green;
     margin: 0 auto;
-    padding: 0;
+    padding: 0px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -429,7 +429,11 @@ form {
 p {
     font-size: 1rem;
 }
-
+.section-5-1 {
+    padding-top: 50px;
+    margin-top: 150px;
+    height: 100%;
+}
 .header-1 {
     text-align: center;
 }
@@ -443,5 +447,5 @@ p {
  .section-4 {
     display: none;
 }
-   
+
   }
