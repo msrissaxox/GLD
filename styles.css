@@ -387,11 +387,11 @@ form {
   }
 
   @media (min-width: 600px) and (max-width: 900px){
-  
+
     #welcomeScreen {
         background-size: cover;
         background-position: center;
-        height: 100vh;
+       height: 100%;
         background-attachment: fixed;
     }
     .nav-bar {
@@ -419,19 +419,34 @@ form {
     }
 .section-2-1, .section-3-1 {
     border: solid 10px green;
-    margin: 0 auto;
-    padding: 0px 0;
+   margin: 50px 0;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.goldandwhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid red 1px;
+    width: 60%;
+    margin-bottom: 140px;
+}
+.middle {
+    height: 170px;
+    background-color: #100402;
+}
+#shop-button-2 {
+    display: none;
 }
 p {
     font-size: 1rem;
 }
 .section-5-1 {
     padding-top: 50px;
-    margin-top: 150px;
+    margin-top: 500px;
     height: 100%;
 }
 .header-1 {
