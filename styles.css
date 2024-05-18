@@ -2,7 +2,9 @@
 :root {
     --main-black: #100402;
     --main-tan: #E3D9CF;
+    --main-tan-fade: #E3D9CF95;
     --off-black: #363333;
+    --gold: #ffb703;
 }
 
 /* Welcome Screen Styling*/
@@ -22,7 +24,7 @@ body {
 
 #welcomeScreen a {
     text-decoration: none;
-    color: black;
+    color: var(--main-black);
     font-weight: lighter;
 }
 
@@ -32,12 +34,9 @@ body {
    background-position: center;
    height: 100vh;
    background-attachment: fixed;
-   font-family: "Cormorant", serif;
+   font-family:  "Inter", sans-serif;
 }
 
-h1 {
-    font-size: 60px;
-}
  /*Added animation to the heading on main section */
  .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
@@ -91,13 +90,17 @@ h1 {
   }
 
 #title {
-    color: #ffffff95;
-    font-size: 90px;
-    text-transform: uppercase;
+    font-size: 75px;
+    letter-spacing: 10px;
+    font-weight: 300;
 }
-
+.elegant {
+    letter-spacing: 2px;
+    font-weight: 300;
+}
 .cover-font {
-    color: #FFFFFF;
+    color: var(--main-tan);
+    text-transform: uppercase;
 }
 
 .nav-bar{
@@ -108,7 +111,7 @@ h1 {
     background-color: #ffffff80;
     position: fixed;
     font-size: 20px;
-    margin:0;
+    margin: 0;
 }
 
 .list {
@@ -165,7 +168,7 @@ h1 {
     color: white;
     font-size: 20px;
     font-weight: lighter;
-    font-family: "Cormorant", serif;
+    font-family: "Inter", sans-serif;
 }
 
 #shop-button-2-2 {
@@ -178,15 +181,7 @@ h1 {
     -o-transition: all .8s ease;
     transition: scale .8 ease; */
 }
-#shop-button-2-2 > button {
-    background-color: transparent;
-    padding: 5px 28px;
-    border: solid white 1px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Cormorant", serif;
-}
+
     /* #shop-button-2:hover {
         -webkit-box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35); 
         box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35);
@@ -194,31 +189,23 @@ h1 {
 } */
 /*Section 2-4 Styling*/
 
-/* #shop-button-3 {
-    -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    transition: scale .8 ease;
-}
-#shop-button-3:hover {
-    -webkit-box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35); 
-    box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35);
-    scale: 1.05;
-} */
 
 .headers{
-max-width: 75%;
+max-width: 80%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 }
-
+.headers p {
+    font-size: 18px;
+}
 .header-1 {
-    font-size: 50px; 
-    padding-bottom: 30px;
-    font-family: "Cormorant", serif;
+    font-size: 70px; 
+    padding-bottom: 50px;
+    font-family: "Inter", sans-serif;
     text-transform: uppercase;
-    color: #f5cc00;
+    color: var(--gold);
+    letter-spacing: .02em;
 }
 
 
@@ -226,20 +213,18 @@ justify-content: center;
 .aboutmepic {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
+
+
 
 .pic {
-    object-fit: contain;
-    height: 600px;
-    
+    object-fit: contain;  
 }
 
-#shop-button-2, #shop-button-3 {
+#shop-button-2  {
     grid-column: 2;
     grid-row: 2;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .section-2 {
@@ -253,6 +238,10 @@ justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
     row-gap: 20px;
+}
+
+.aboutgld-btn {
+margin-right: 20px;
 }
 /*Carousel*/
 
@@ -280,15 +269,17 @@ justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr auto;
-    row-gap: 20px;
-    
+    row-gap: 20px; 
 }
+
+
 
 .section-4 {
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 70px 50px 90px;
+
 }
 
 .section-4-1 {    
@@ -311,39 +302,68 @@ justify-content: center;
 
 p {
     color: var(--main-tan);
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-family: "Inter",sans-serif;
 }
 
 .headers {
     color: var(--main-tan);
-    font-family: "Cormorant", serif;
+    font-family: "Inter", sans-serif;
 }
 
 .about-me {
     color: var(--main-tan);
-    font-family: "Cormorant", serif;
+    font-family: "Inter", sans-serif;
 }
 
 #shop-button-2 > button {
     background-color: transparent;
     padding: 5px 28px;
-    border: solid white 1px;
+    border: solid white 2px;
     color: white;
     font-size: 20px;
     font-weight: lighter;
-    font-family: "Cormorant", serif;
+    font-family: "Inter", sans-serif;
     margin-right: 20px;
 }
+#shop-button-3 {
+    grid-column: 2;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
 #shop-button-3 > button {
     background-color: transparent;
     padding: 5px 28px;
-    border: solid white 1px;
+    border: solid white 2px;
     color: white;
     font-size: 20px;
     font-weight: lighter;
-    font-family: "Cormorant", serif;
-    margin-right: 10px;
+    font-family: "Inter",  sans-serif;
+}
+
+#shop-button-3 > button:hover{
+    background: #e7e7e7;
+}
+
+#last-button > button {
+    background-color: transparent;
+    padding: 5px 28px;
+    border: solid white 2px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: "Inter",  sans-serif;
+}
+
+#last-button{
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#last-button > button:hover{
+    background: #e7e7e7;
 }
 
 .img-border-radius {
@@ -356,6 +376,7 @@ p {
     flex-direction: column;
     align-items: center;
 }
+
 .img-border-radius {
     -webkit-transition: all .8s ease;
     -moz-transition: all .8s ease;
@@ -402,7 +423,7 @@ form {
     width: 70vw;
   }
 
-  input, textarea {
+input, textarea {
     width: 100%;
     margin: 10px 0 0 0;
     background-color: var(--off-black);
@@ -411,22 +432,33 @@ form {
     min-height: 2em;
   }
 
-  input, textarea:focus {
+input, textarea:focus {
     outline: none;
   }
   
+.section {
+    clear: both;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+  .hidden {
+    opacity: 0;
+    background-color: var(--main-black);
+  }
 
-  @media (min-width: 600px) and (max-width: 900px){
+  /* @media (min-width: 600px) and (max-width: 900px){ */
 
-    #welcomeScreen {
+    /* #welcomeScreen {
         background-size: cover;
         background-position: center;
-       height: 100%;
+        height: 100vh;
         background-attachment: fixed;
     }
+
     .nav-bar {
         display: none;
     }
+
     #title {
         font-size: 70px;
     }
@@ -442,7 +474,7 @@ form {
         font-weight: lighter;
         display: flex;
     } */
-    #welcomeScreen{
+    /* #welcomeScreen{
        
         margin: 0;
         padding: 0;
@@ -505,4 +537,4 @@ p {
     margin-top: 300px;
 }
 
-  }
+  } */ 
