@@ -159,8 +159,6 @@ body {
 }
 
 
-
-
 #shop-button-2 > button {
     background-color: transparent;
     padding: 5px 28px;
@@ -206,6 +204,7 @@ justify-content: center;
     text-transform: uppercase;
     color: var(--gold);
     letter-spacing: .02em;
+    font-weight: 200;
 }
 
 
@@ -228,7 +227,7 @@ justify-content: center;
 }
 
 .section-2 {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center; 
 }
@@ -259,7 +258,7 @@ margin-right: 20px;
 }
 
 .section-3 {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -275,7 +274,7 @@ margin-right: 20px;
 
 
 .section-4 {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     padding: 70px 50px 90px;
@@ -329,6 +328,7 @@ p {
     grid-column: 2;
     display: flex;
     justify-content: flex-end;
+    transition: letter-spacing 1s ease-out 2s;
 }
 
 
@@ -344,6 +344,8 @@ p {
 
 #shop-button-3 > button:hover{
     background: #e7e7e7;
+    color: var(--off-black);
+    letter-spacing: 1px;
 }
 
 #last-button > button {
@@ -398,6 +400,7 @@ p {
 
 .section-5 {
     padding: 10px 50px 0px;
+    height: 100%;
 }
 
 .forms {
@@ -446,95 +449,95 @@ input, textarea:focus {
     background-color: var(--main-black);
   }
 
-  /* @media (min-width: 600px) and (max-width: 900px){ */
-
-    /* #welcomeScreen {
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        background-attachment: fixed;
+  @media only screen and (max-width: 600px) {
+    #welcomeScreen {
+        background-image: linear-gradient(
+            55deg,
+            hsl(9deg 78% 4%) 0%,
+            hsl(10deg 33% 6%) 8%,
+            hsl(8deg 18% 8%) 18%,
+            hsl(7deg 12% 10%) 29%,
+            hsl(6deg 9% 12%) 40%,
+            hsl(5deg 8% 13%) 52%,
+            hsl(5deg 6% 15%) 64%,
+            hsl(4deg 5% 17%) 76%,
+            hsl(2deg 4% 19%) 88%,
+            hsl(0deg 3% 21%) 100%
+          );
     }
+          #title {
+            font-size: 55px;
+            letter-spacing: 10px;
+            font-weight: 200;
+            margin-bottom: 15px;
+        }
 
-    .nav-bar {
-        display: none;
-    }
+        .elegant {
+            letter-spacing: 2px;
+            font-weight: 200;
+            margin-top: 35px;
+        }
 
-    #title {
-        font-size: 70px;
-    }
-    /* #shop-button-1 {
-        align-self: flex-end;
-    } */
-    
-    /* #shop-button-1 > button{
-        background-color: transparent;
-        border: solid #6E381F 1px;
-        color: white;
-        font-size: 25px;
-        font-weight: lighter;
+        #shop-button-1 {
+            display: none;
+        }
+
+    .section-2 {
+        height: 100%;
         display: flex;
-    } */
-    /* #welcomeScreen{
-       
-        margin: 0;
-        padding: 0;
+        align-items: center;
     }
-.section-2-1, .section-3-1 {
+    .section-2-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+        
+        .section-3 {
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-3-1 {   
+     
+            display: flex;
+            flex-direction: column;  
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
 
-   margin: 50px 0;
-    padding: 50px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.goldandwhite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin-bottom: 40px;
-}
-.middle {
-    height: 170px;
-    background-color: #100402;
-}
-#shop-button-2 {
-    display: none;
-}
-p {
-    font-size: 1rem;
-}
-.section-5-1 {
+        .aboutmepic img {
+            max-width: 450px;
+        }
+      .section-4 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
 
-    height: 100%;
-    margin-top: 150px;
-}
-.header-1 {
-    text-align: center;
-}
+      .section-4-1 {
+        display: flex;
+        flex-direction: column;
+      }
 
-#disappear {
-    display: none;
-}
-.pic {
-    width: 400px;
-    height: 450px;
-}
+      .bracelet1 img {
+        margin: 35px 0;
+      }
 
+      .bracelet1 h5 {
+        color: var(--gold);
+        font-weight: 200;
+        letter-spacing: 1px;
+      }
 
-.section-4-1 {
-   
-    margin: 50px 50px;
-     padding: 50px 0;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-}
-#gems {
-    margin-top: 300px;
+      .bracelet2 img {
+        margin: 35px 0;
+      }
+      .bracelet2 h5 {
+        color: var(--gold);
+        font-weight: 200;
+        letter-spacing: 1px;
+      }
 }
 
-  } */ 
