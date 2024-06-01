@@ -4,11 +4,10 @@
     --off-black: #363333;
 }
 
-html{
-background-image: url(../Assets/images/jewelerycoming.jpg);
+body{
+background-image: url(../Assets/images/backgroundcomingsoon.jpg);
 background-size: cover;
 background-position: center;
-height: 100vh;
 background-attachment: fixed;
 font-family: "Cormorant", serif;
 }
@@ -30,9 +29,11 @@ h1 {
     font-size: 60px;
     color: var(--off-black);
 }
+
 .coming-soon {
-    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }

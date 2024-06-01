@@ -19,11 +19,73 @@
     </head>
 
 <body>
+<!--nav bar created with bootstrap-->
+<nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand d-md-none" href="#">
+      <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+      GLD
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasLabel">GLD</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav flex-grow-1 justify-content-between">
+          <li class="nav-item"><a class="nav-link" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg>
+          </a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Jewelry</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Jewelry/bracelets.html">Bracelets</a></li>
+              <li><a class="dropdown-item" href="./Jewelry/bracelets.html">Necklaces</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Crystals</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./crystals/crystals.html">Crystal Kits</a></li>
+              <li><a class="dropdown-item" href="./crystals/crystals.html">Freeform Crystals</a></li>
+              <li><a class="dropdown-item" href="./crystals/crystals.html">Selenite Bowls</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Ritual Accessories</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Ritual Accessories/apothecary.html">Apothecary Matches</a></li>
+              <li><a class="dropdown-item" href="./Ritual Accessories/apothecary.html">Palo Santo Bundles</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="./Healing Services/healingservices.html">Healing Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./Events/events.html">Private</a></li>
+              <li><a class="dropdown-item" href="./Events/events.html">Corporate</a></li>
+              <li><a class="dropdown-item" href="./Events/events.html">Pop-Up Markets</a></li>
+              <li><a class="dropdown-item" href="./Events/events.html">Vendor Sign Up Form</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
+      
+            <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
+          </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav> 
+
+
 <!--Welcome Screen Div with styled background that is fixed. Also added a bootstrap fluid container to this section.-->
-    
     <div id="welcomeScreen">
-       
-      <div class="nav-bar">
+      <!-- <div class="nav-bar">
 
         <ul class="list">
           <li class="title1">GLD</li>
@@ -64,7 +126,7 @@
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#contact-me">Contact</a></li>                
         </ul>
-      </div>
+      </div> -->
 
 
 
