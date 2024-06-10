@@ -70,8 +70,8 @@ span  {
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      -webkit-transform: translate3d(0, 100%, 0);
-      transform: translate3d(0, 100%, 0);
+      -webkit-transform: translate3d(0, -200%, 0);
+      transform: translate3d(0, -200%, 0);
     }
   
     to {
@@ -87,8 +87,8 @@ span  {
   }
   
   .animated {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
   }
@@ -136,6 +136,7 @@ span  {
 .flex-1-1 {
     display: flex;
     height: 95vh;
+    margin-top: 0px;
     align-items: flex-end;
 
 }
