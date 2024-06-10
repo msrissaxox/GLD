@@ -2,12 +2,12 @@
     --main-black: #100402;
     --main-tan: #E3D9CF;
     --off-black: #363333;
+
 }
 
 body{
-background-image: url(../Assets/images/backgroundcomingsoon.jpg);
+background-image: url(../Assets/images/bracelet3.jpg);
 background-size: cover;
-background-position: center;
 background-attachment: fixed;
 font-family: "Cormorant", serif;
 }
@@ -25,14 +25,35 @@ body {
     padding: 0;
     max-width: 100%;
 }
-h1 {
-    font-size: 60px;
-    color: var(--off-black);
+.background .coming-soon h1 {
+    font-size: 100px;
+  color: rgb(124, 79, 2)
+}
+
+.background {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+   
+
 }
 .coming-soon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
+    width: 70%;
+    background-image: url(../Assets/images/bracelet3.jpg);
+    background-image: cover;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow:
+  1.5px 1.5px 6.2px -47px rgba(0, 0, 0, 0.124),
+  3.8px 3.8px 15.6px -47px rgba(0, 0, 0, 0.177),
+  7.8px 7.8px 31.9px -47px rgba(0, 0, 0, 0.223),
+  16.1px 16.1px 65.7px -47px rgba(0, 0, 0, 0.276),
+  44px 44px 180px -47px rgba(0, 0, 0, 0.4)
+;
 }
