@@ -26,6 +26,10 @@ span  {
     font-size: 25px;
 }
 
+
+.footertext {
+    font-size: 16px;
+}
 #welcomeScreen a {
     text-decoration: none;
     color: var(--main-black);
@@ -403,6 +407,8 @@ p {
     text-align: center;
 }
 
+
+
 .section-5 {
     padding: 10px 50px 0px;
     height: 100%;
@@ -417,7 +423,9 @@ p {
 form > fieldset > label {
     display: block;
 }
-
+.section h5 {
+    color: var(--gold)
+}
 .form1 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -456,19 +464,7 @@ input, textarea:focus {
 
   @media only screen and (max-width: 600px) {
     #welcomeScreen {
-        background-image: linear-gradient(
-            55deg,
-            hsl(9deg 78% 4%) 0%,
-            hsl(10deg 33% 6%) 8%,
-            hsl(8deg 18% 8%) 18%,
-            hsl(7deg 12% 10%) 29%,
-            hsl(6deg 9% 12%) 40%,
-            hsl(5deg 8% 13%) 52%,
-            hsl(5deg 6% 15%) 64%,
-            hsl(4deg 5% 17%) 76%,
-            hsl(2deg 4% 19%) 88%,
-            hsl(0deg 3% 21%) 100%
-          );
+        background-image: url("./Assets/images/bracelet10.jpg")
     }
           #title {
             font-size: 55px;
