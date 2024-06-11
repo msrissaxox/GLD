@@ -471,7 +471,7 @@ input, textarea:focus {
         height: 100vh;
         color: var(--off-black)
     }
-    
+
           #title {
             font-size: 55px;
             letter-spacing: 10px;
@@ -499,10 +499,18 @@ input, textarea:focus {
     .section-2-1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        border: solid red 1px;
+        padding: 10px;
     }
-    
+div.headers.section {
+    max-width: 100%;
+    align-self: center;
+}
+  
+div.row.goldandwhite.hidden.section {
+    width: 100vw;
+    align-self: center;
+}
         
         .section-3 {
             height: 100%;
