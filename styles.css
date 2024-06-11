@@ -466,11 +466,19 @@ input, textarea:focus {
     #welcomeScreen {
         background-image: url("./Assets/images/bracelet10.jpg")
     }
+
+    .cover-font {
+        height: 100vh;
+        color: var(--off-black)
+    }
+    
           #title {
             font-size: 55px;
             letter-spacing: 10px;
-            font-weight: 200;
+            font-weight: light;
             margin-bottom: 15px;
+         
+
         }
 
         .elegant {
