@@ -503,6 +503,7 @@ input, textarea:focus {
         
         #shop-button-1{
          display: none;
+        }
 
         #shop-button-3 {
             align-self: flex-end;
@@ -597,6 +598,7 @@ div.headers.section {
         text-align: center;
       }
     }
+}
       @media only screen and (min-width: 601px) and (max-width: 1000px) {
         #welcomeScreen {
             background-image: url("./Assets/images/bracelet10.jpg");
