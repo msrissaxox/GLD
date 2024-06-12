@@ -475,7 +475,8 @@ input, textarea:focus {
 
   @media only screen and (max-width: 600px) {
     #welcomeScreen {
-        background-image: url("./Assets/images/bracelet10.jpg")
+        background-image: url("./Assets/images/bracelet10.jpg");
+        background-attachment: local;
     }
    
 .header-1 {
@@ -498,22 +499,11 @@ input, textarea:focus {
             font-weight: 200;
             margin-top: 35px;
         }
-.flex-1-1 {
-    position: relative;
-}
-        #shop-button-1 {
-            width: 250px;
-            position: absolute;
-            margin: 5px;
-            left: 200px;
-        }
-        #shop-button-1:button {
-            width: 230px;
-            position: absolute;
-            margin: 5px;
-            left: 210px;
-            background-color: black;
-        }
+        
+        
+        #shop-button-1{
+         display: none;
+
         #shop-button-3 {
             align-self: flex-end;
         }
@@ -603,10 +593,14 @@ div.headers.section {
         width: 70vw;
         margin-bottom: 0;
       }
+      h4 {
+        text-align: center;
+      }
     }
       @media only screen and (min-width: 601px) and (max-width: 1000px) {
         #welcomeScreen {
-            background-image: url("./Assets/images/bracelet10.jpg")
+            background-image: url("./Assets/images/bracelet10.jpg");
+            background-attachment: local;
         }
         .header-1{
             text-align: center;
@@ -675,7 +669,9 @@ div.headers.section {
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px){
-
+    #welcome-screen{
+    background-attachment: local;
+    }
     .section-4 {
         height: 100%;
         display: flex;
