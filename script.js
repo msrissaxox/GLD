@@ -3,6 +3,7 @@
 //These two lines of code aren't neccessary. 
 // let firstSection = document.querySelector("#first_section");
 // console.log(firstSection.getBoundingClientRect());
+'use strict';
 
 function isVisible(element){
     let elementBox = element.getBoundingClientRect();

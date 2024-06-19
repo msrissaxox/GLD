@@ -37,12 +37,14 @@ span  {
 }
 
 #welcomeScreen {
-   background-image: url("./Assets/images/welcome.webp");
-   background-size: cover;
+   background-image: url("./Assets/images/gold-01.png");
+   background-size: contain;
    background-position: center;
+   background-repeat: no-repeat;
    height: 100vh;
    background-attachment: fixed;
    font-family:  "Inter", sans-serif;
+   background-color: black;
 }
 
  /*Added animation to the heading on main section */
@@ -97,14 +99,17 @@ span  {
     animation-fill-mode: both;
   }
 
+
 #title {
     font-size: 75px;
     letter-spacing: 10px;
     font-weight: 300;
+    display: none;
 }
 .elegant {
     letter-spacing: 2px;
     font-weight: 300;
+    display: none;
 }
 .cover-font {
     color: var(--main-tan);
@@ -137,12 +142,12 @@ span  {
 .GLD-Header-Logo {
     width: 200px;
 }
+
 .flex-1-1 {
     display: flex;
     height: 95vh;
     margin-top: 0px;
     align-items: flex-end;
-
 }
 
 .flex-1 {
@@ -153,6 +158,11 @@ span  {
     align-items: center;
 }
 
+
+
+
+/*Buttons*/
+
 #shop-button-1 {
     align-self: flex-end;
     padding-bottom: 75px; 
@@ -161,44 +171,78 @@ span  {
 #shop-button-1 > button {
     background-color: transparent;
     padding: 5px 30px;
-    border: solid #6E381F 1px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    transition-duration: 1s;
-}
-
-#shop-button-1 > button:hover {
-    border: solid white 1.5px;
-    background-color: #6e381f7d;
-}
-
-#shop-button-2 > button {
-    background-color: transparent;
-    padding: 5px 28px;
     border: solid white 1px;
     color: white;
     font-size: 20px;
     font-weight: lighter;
+    transition-duration: 1s;
+    -webkit-box-shadow: 3px 4px 1px 3px #FFFBFB; 
+    box-shadow: 3px 4px 1px 3px #FFFBFB;
+}
+
+#shop-button-1 > button:hover {
+    border: solid white 1.5px;
+    background-color: #ffb703;
+    -webkit-box-shadow: 0px 0px 0px 0px #FFFBFB; 
+    box-shadow: 0px 0px 0px 0px #FFFBFB;
+}
+
+#shop-button-3 > button {
+    background-color: transparent;
+    padding: 5px 30px;
+    border: solid white 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    transition-duration: 1s;
+    -webkit-box-shadow: 3px 4px 1px 3px #FFFBFB; 
+    box-shadow: 3px 4px 1px 3px #FFFBFB;
     font-family: "Inter", sans-serif;
 }
 
-#shop-button-2-2 {
-    grid-column: 3;
+#shop-button-3 > button:hover{
+    border: solid white 1.5px;
+    background-color: #ffb703;
+    -webkit-box-shadow: 0px 0px 0px 0px #FFFBFB; 
+    box-shadow: 0px 0px 0px 0px #FFFBFB;
+}
+
+#shop-button-3 {
+    grid-column: 2;
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    /* -webkit-transition: all .8s ease;
-    -moz-transition: all .8s ease;
-    -o-transition: all .8s ease;
-    transition: scale .8 ease; */
+    transition: letter-spacing 1s ease-out 2s;
 }
 
-    /* #shop-button-2:hover {
-        -webkit-box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35); 
-        box-shadow: -6px 0px 6px 3px rgba(174,176,185,0.35);
-        scale: 1.05;
-} */
+
+#last-button > button {
+    background-color: transparent;
+    padding: 5px 30px;
+    border: solid white 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    transition-duration: 1s;
+    -webkit-box-shadow: 3px 4px 1px 3px #FFFBFB; 
+    box-shadow: 3px 4px 1px 3px #FFFBFB;
+    font-family: "Inter", sans-serif;
+}
+
+#last-button{
+    grid-column: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#last-button > button:hover{
+    border: solid white 1.5px;
+    background-color: #ffb703;
+    -webkit-box-shadow: 0px 0px 0px 0px #FFFBFB; 
+    box-shadow: 0px 0px 0px 0px #FFFBFB;
+}
+
+
 /*Section 2-4 Styling*/
 
 
@@ -235,10 +279,6 @@ justify-content: center;
     object-fit: contain;  
 }
 
-#shop-button-2  {
-    grid-column: 2;
-    grid-row: 2;
-}
 
 .section-2 {
     height: 100%;
@@ -328,59 +368,6 @@ p {
     font-family: "Inter", sans-serif;
 }
 
-#shop-button-2 > button {
-    background-color: transparent;
-    padding: 5px 28px;
-    border: solid white 2px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Inter", sans-serif;
-    margin-right: 20px;
-}
-#shop-button-3 {
-    grid-column: 2;
-    display: flex;
-    justify-content: flex-end;
-    transition: letter-spacing 1s ease-out 2s;
-}
-
-
-#shop-button-3 > button {
-    background-color: transparent;
-    padding: 5px 28px;
-    border: solid white 2px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Inter",  sans-serif;
-    
-}
-
-#shop-button-3 > button:hover{
-    background: #e7e7e7;
-    color: var(--off-black);
-}
-
-#last-button > button {
-    background-color: transparent;
-    padding: 5px 28px;
-    border: solid white 2px;
-    color: white;
-    font-size: 20px;
-    font-weight: lighter;
-    font-family: "Inter",  sans-serif;
-}
-
-#last-button{
-    grid-column: 3;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#last-button > button:hover{
-    background: #e7e7e7;
-}
 
 .img-border-radius {
     border-radius: 5%;
