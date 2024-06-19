@@ -39,7 +39,6 @@ span  {
 #welcomeScreen {
    background-image: url("./Assets/images/gold-01.png");
    background-size: contain;
-   background-position: center;
    background-repeat: no-repeat;
    height: 100vh;
    background-attachment: fixed;
@@ -143,28 +142,50 @@ span  {
     width: 200px;
 }
 
-.flex-1-1 {
+/* .flex-1-1 {
     display: flex;
     height: 95vh;
     margin-top: 0px;
     align-items: flex-end;
-}
+} */
 
 .flex-1 {
-    height: 50vh;
-    width: 100vw;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    flex-flow: row wrap;
+    border: solid 5px green;
 }
 
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px; 
+}
+.gallery img {
+    flex: 0 2 50px; /* allows images to grow and shrink as needed */
+    max-width: 100%; /* ensures images do not overflow the container */
+    max-height: 100%; /* ensures images do not overflow the container */
+}
+
+.gallery .img1{
+ border: solid red;
+}
+.gallery .img2 {
+    border: solid green;
+}
+
+.gallery .img3 {
+  
+    border: solid blue;
+}
 
 
 
 /*Buttons*/
 
 #shop-button-1 {
-    align-self: flex-end;
     padding-bottom: 75px; 
 }
 
