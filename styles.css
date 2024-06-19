@@ -637,6 +637,11 @@ h4 {
     min-height: 100%;
 }
 
+.flex-1-1 .flex-1 .gallery > img {
+    max-width: 200px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+ }
         .header-1{
             text-align: center;
         }
@@ -703,10 +708,32 @@ h4 {
     }
 }
 
+
+/*need to work on this media query section*/
+
+
 @media only screen and (min-width: 1000px) and (max-width: 1200px){
-    #welcome-screen{
-    background-attachment: local;
-    }
+    #welcomeScreen {
+        background-image: url("./Assets/images/gold-01.png");
+        background-attachment: scroll;
+        background-position: center;
+        height: 70vh;
+}
+
+.flex-1-1 {
+    background-color: var(--main-black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.flex-1-1 .flex-1 .gallery > img {
+    max-width: 200px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+ }
     .section-4 {
         height: 100%;
         display: flex;
