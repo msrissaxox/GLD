@@ -301,26 +301,22 @@ justify-content: center;
     font-weight: 200;
 }
 
-
-
 .aboutmepic {
     display: flex;
     justify-content: flex-end;
     /* margin-bottom: 20px; */
 }
 
-
-
 .pic {
     object-fit: contain;  
 }
-
 
 .section-2 {
     height: 100%;
     display: flex;
     align-items: center; 
 }
+
 .section-2-1 {
     padding: 200px 50px 90px;
     display: grid;
@@ -361,14 +357,11 @@ margin-right: 20px;
     row-gap: 20px; 
 }
 
-
-
 .section-4 {
     height: 100%;
     display: flex;
     align-items: center;
     padding: 70px 50px 90px;
-
 }
 
 .section-4-1 {    
@@ -428,14 +421,11 @@ p {
     opacity: 0.5;
     z-index: 0;
     scale: 1.05;
-
 }
 
 .bracelet-para {
     text-align: center;
 }
-
-
 
 .section-5 {
     padding: 10px 50px 0px;
@@ -451,13 +441,16 @@ p {
 form > fieldset > label {
     display: block;
 }
+
 .section h5 {
     color: var(--gold)
 }
+
 .form1 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 /* Gives the form a max-width and min-width, 
 setting it to 60vw betwween those widths. */
 form {
@@ -491,14 +484,12 @@ input, textarea:focus {
   }
 
 
-
-
   /*MEDIA QUERIES START HERE*/
 
 
   @media only screen and (max-width: 600px) {
     #welcomeScreen {
-        background-image: url("./Assets/images/bracelet10.jpg");
+        background-image: url("./Assets/images/gold-01.png");
         background-attachment: local;
     }
    
@@ -620,7 +611,7 @@ div.headers.section {
 
       @media only screen and (min-width: 601px) and (max-width: 1000px) {
         #welcomeScreen {
-            background-image: url("./Assets/images/bracelet10.jpg");
+            background-image: url("./Assets/images/");
             background-attachment: local;
         }
         .header-1{

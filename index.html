@@ -20,10 +20,9 @@
 
 <body>
 <!--nav bar created with bootstrap-->
-<nav class="navbar navbar-expand-md bg-light sticky-top border-bottom" data-bs-theme="light">
+<nav class="navbar navbar-expand-md bg-light sticky-top border-bottom text-dark" data-bs-theme="light">
   <div class="container-fluid">
     <a class="navbar-brand d-md-none" href="#">
-      <!-- <svg class="bi" width="24" height="24"><use xlink:href="#aperture"></use></svg> -->
  
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
@@ -37,7 +36,7 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav flex-grow-1 justify-content-between">
           <li class="nav-item"><a class="nav-link" href="#">
-          <span><img src="./Assets/images/logoedit.png" width="50px"> GLD</span>
+          <span>GLD</span>
           </a></li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Jewelry</a>
@@ -73,8 +72,11 @@
           </li>
           <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
+          <a href="crystals/crystals.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="40" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+          </svg></a>
       
-            <svg class="bi" width="24" height="24"><use xlink:href="#cart"></use></svg>
           </a></li>
         </ul>
       </div>
@@ -314,8 +316,8 @@
       
 
        
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-2 border-top">
-          <div class="col-md-4 d-flex align-items-center">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3  bg-dark border-top">
+          <div class="col-md-4 d-flex align-items-center bg-dark">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
               <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
             </a>
@@ -340,29 +342,6 @@
 
 <script src="script.js"></script>   
 
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyC0JS9dK0Q5MZqhfGVkGoRdW_Hu-GZqAeo",
-    authDomain: "katie-s-form.firebaseapp.com",
-    projectId: "katie-s-form",
-    storageBucket: "katie-s-form.appspot.com",
-    messagingSenderId: "450734015071",
-    appId: "1:450734015071:web:1297d468fd2cd2b94751ea",
-    measurementId: "G-TQLFETXS10"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
 
 
 </body>
