@@ -485,6 +485,9 @@ input, textarea:focus {
     #welcomeScreen {
         background-image: url("./Assets/images/gold-01.png");
         background-attachment: scroll;
+        background-position: center;
+        height: 70vh;
+        border: solid red 5px;
 }
    
 .header-1 {
@@ -498,11 +501,11 @@ input, textarea:focus {
 
 
 .flex-1-1 .flex-1 .gallery {
-    margin-top: 700px;
-    margin-bottom: 100px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: solid green 4px;
 }
 
 .flex-1-1 .flex-1 .gallery > img {
@@ -531,7 +534,7 @@ input, textarea:focus {
     align-items: center;
 }
 .section-2-1 {
-    margin-top: 100px;
+    margin-top: 650px;
     display: flex;
     flex-direction: column;
     padding: 10px;
