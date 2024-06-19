@@ -533,7 +533,7 @@ input, textarea:focus {
     align-items: center;
 }
 .section-2-1 {
-    margin-top: 650px;
+    margin-top: 550px;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -622,10 +622,21 @@ h4 {
   }
   
 @media only screen and (min-width: 601px) and (max-width: 1000px) {
-        #welcomeScreen {
-            background-image: url("./Assets/images/");
-            background-attachment: local;
-        }
+    #welcomeScreen {
+        background-image: url("./Assets/images/gold-01.png");
+        background-attachment: scroll;
+        background-position: center;
+        height: 70vh;
+}
+.flex-1-1 {
+    background-color: var(--main-black);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
         .header-1{
             text-align: center;
         }
